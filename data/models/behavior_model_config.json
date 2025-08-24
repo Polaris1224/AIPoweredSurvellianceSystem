@@ -1,0 +1,8 @@
+{
+  "num_classes": 2,
+  "seq_len": 16,
+  "class_names": [
+    "normal",
+    "anomaly"
+  ]
+}
