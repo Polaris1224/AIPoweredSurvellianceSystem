@@ -141,9 +141,7 @@ docker build -t ai-surveillance:cpu .
 **Windows PowerShell** (use ABSOLUTE path):
 
 ```powershell
-docker run --rm -p 8501:8501 ^
-  -v "C:\full\path\to\project\data:/app/data" ^
-  ai-surveillance:cpu
+docker run --rm -p 8501:8501 -v "C:\full\path\to\project\data:/app/data" ai-surveillance:cpu
 ```
 
 **macOS / Linux**
